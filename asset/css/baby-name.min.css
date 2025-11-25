@@ -26,14 +26,14 @@
   margin:0 auto 24px auto;
 }
 .ilmu-bng-root .ilmu-bng-article h2 {
-  font-size:1.9rem;
+  font-size:1.35rem;
   margin:0 0 0.75em;
-  color:#064e3b;
+  color:#0c3803;
 }
 .ilmu-bng-root .ilmu-bng-article h3 {
-  font-size:1.3rem;
+  font-size:1.25rem;
   margin:1.5em 0 0.7em;
-  color:#065f46;
+  color:#0c3803;
 }
 .ilmu-bng-root .ilmu-bng-article ul {
   padding-left:1.2rem;
@@ -45,9 +45,9 @@
   margin:0 auto 32px auto;
 }
 .ilmu-bng-root .ilmu-bng-tool-wrap h2 {
-  font-size:1.7rem;
+  font-size:1.35rem;
   margin:0 0 0.5em;
-  color:#065f46;
+  color:#0c3803;
 }
 .ilmu-bng-root .ilmu-bng-intro {
   margin-bottom:1rem;
@@ -232,8 +232,8 @@
   margin:24px auto 16px;
 }
 .ilmu-bng-root .ilmu-bng-faq h2 {
-  font-size:1.6rem;
-  color:#064e3b;
+  font-size:1.35rem;
+  color:#0c3803;
   margin-bottom:0.75em;
 }
 .ilmu-bng-root .ilmu-bng-faq-item {
