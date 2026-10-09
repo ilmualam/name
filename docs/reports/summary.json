@@ -1,0 +1,172 @@
+{
+  "baselineMobile": {
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-09T13:50:21.543Z",
+    "scores": {
+      "performance": 84,
+      "accessibility": 87,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1681.5616769390422,
+        "display": "1.7\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 3003.1233538780843,
+        "display": "3.0\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "server-response-time": {
+        "value": 83,
+        "display": "Root document took 80\u00a0ms",
+        "unit": "millisecond"
+      }
+    },
+    "zeroScoreAuditIds": [
+      "speed-index",
+      "errors-in-console",
+      "color-contrast",
+      "landmark-one-main",
+      "select-name",
+      "agent-accessibility-tree",
+      "lcp-breakdown-insight",
+      "network-dependency-tree-insight",
+      "render-blocking-insight"
+    ]
+  },
+  "optimizedMobileUncompressed": {
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-09T13:57:39.460Z",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1203.53395,
+        "display": "1.2\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 2707.60185,
+        "display": "2.7\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 18,
+        "display": "20\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "server-response-time": {
+        "value": 90,
+        "display": "Root document took 90\u00a0ms",
+        "unit": "millisecond"
+      }
+    },
+    "zeroScoreAuditIds": [
+      "cache-insight"
+    ]
+  },
+  "optimizedMobileCompressed": {
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-09T14:00:10.091Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1177.34365,
+        "display": "1.2\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 1687.03095,
+        "display": "1.7\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 19,
+        "display": "20\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "server-response-time": {
+        "value": 179,
+        "display": "Root document took 180\u00a0ms",
+        "unit": "millisecond"
+      }
+    },
+    "zeroScoreAuditIds": []
+  },
+  "optimizedDesktopUncompressed": {
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-09T13:58:28.135Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 358.0321,
+        "display": "0.4\u00a0s",
+        "unit": "millisecond"
+      },
+      "largest-contentful-paint": {
+        "value": 579.0963,
+        "display": "0.6\u00a0s",
+        "unit": "millisecond"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0\u00a0ms",
+        "unit": "millisecond"
+      },
+      "cumulative-layout-shift": {
+        "value": 3.250598477936526e-05,
+        "display": "0",
+        "unit": "unitless"
+      },
+      "server-response-time": {
+        "value": 79,
+        "display": "Root document took 80\u00a0ms",
+        "unit": "millisecond"
+      }
+    },
+    "zeroScoreAuditIds": [
+      "cache-insight"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-09T14:12:37.354Z",
+  "environment": "Local compressed deployment preview, cold mobile Lighthouse with PWA enabled",
+  "scores": {
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "agentic-browsing": 100
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "value": 1071.6230500000001,
+      "display": "1.1\u00a0s",
+      "unit": "millisecond"
+    },
+    "largest-contentful-paint": {
+      "value": 1109.6230500000001,
+      "display": "1.1\u00a0s",
+      "unit": "millisecond"
+    },
+    "total-blocking-time": {
+      "value": 13,
+      "display": "10\u00a0ms",
+      "unit": "millisecond"
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "display": "0",
+      "unit": "unitless"
+    },
+    "server-response-time": {
+      "value": 145,
+      "display": "Root document took 150\u00a0ms",
+      "unit": "millisecond"
+    }
+  },
+  "zeroScoreAuditIds": [],
+  "pwaRegression": "Passed complete cache, manifest/installability, offline functionality, update consent, scoped cache cleanup and response behavior"
+}

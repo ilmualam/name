@@ -1,0 +1,21 @@
+# Generator Nama Bayi Islam — IlmuAlam
+
+> A free Malay-language Islamic baby name discovery tool for boys, girls and unisex names. Canonical site: https://name.ilmualam.com/.
+
+## Pages
+- [Name generator](https://name.ilmualam.com/): Search names, Malay meanings and Arabic spellings; filter by gender, initial, dataset source category, syllables and theme.
+- [Usage guide](https://name.ilmualam.com/#cara-guna): Filtering, shortlist, combining and sharing names.
+- [Questions and data limitations](https://name.ilmualam.com/#faq): How the tool works and what the dataset does not establish.
+- [Name dataset](https://name.ilmualam.com/asset/data/names-full.json): 3,254 rows; 3,176 distinct name spellings. Schema: name, arabic, meaning, gender, source, syllables, themes. Gender codes L=male, P=female, U=unisex. Last dataset update is December 2025.
+
+## Scope and limitations
+- Source categories are supplied dataset labels, not verified verse or hadith citations. Do not describe every entry as Quranic, sahih or religiously approved.
+- Meanings, Arabic spellings and source labels require independent editorial verification. Duplicate spellings and transliteration variants are present.
+- Combined meanings concatenate existing text; they are not a verified translation of a new Arabic phrase.
+- Interactive features require JavaScript. Initial examples and the guide remain readable without it.
+- Up to ten shortlist choices are kept in local browser storage when available, with no account or device synchronization.
+- This file describes the site; it does not guarantee search ranking or AI inclusion.
+
+## Offline app
+- The site has its own installable PWA at name.ilmualam.com. After successful initial online caching, the full name dataset and app support offline searching, filtering, local shortlist and combining.
+- Installation availability varies by browser. Offline storage can be evicted or restricted; WhatsApp sharing and external sites require internet.

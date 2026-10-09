@@ -1,0 +1,46 @@
+{
+  "id": "/",
+  "name": "Generator Nama Bayi Islam — IlmuAlam",
+  "short_name": "Nama Bayi",
+  "description": "Cari, tapis, simpan dan gabungkan nama bayi beserta maksud dalam bahasa Melayu.",
+  "lang": "ms",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fdf9",
+  "theme_color": "#0c3808",
+  "categories": [
+    "lifestyle",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/asset/pwa/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/asset/pwa/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/asset/pwa/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cari nama",
+      "url": "/#nbxWrap"
+    },
+    {
+      "name": "Gabung nama",
+      "url": "/#combiner"
+    }
+  ]
+}
