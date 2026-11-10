@@ -1,5 +1,7 @@
 # Islamic Baby Names Generator
 
+> **Moved.** The tool is now part of the Quran site at **https://quran.ilmualam.com/nama-bayi-islam/** (repo `ilmualam/quran`: `tools/pages17.py`, `tools/nama.py`, `assets/js/nama.js`; this repo's dataset is imported there as `tools/nama/legacy.json` and cleaned at build time). The deploy workflow now runs `node tools/redirect.mjs`, which publishes a redirect for every URL on name.ilmualam.com and a service worker that retires the old offline app. The original app source below is kept for reference.
+
 Malay-language name discovery tool for **https://name.ilmualam.com/**.
 
 The maintained page is `asset/index.html`. The build synchronizes its inline application styles from `asset/css/baby-name.min.css` and writes a matching root `index.html`. Runtime is `asset/js/app.js`; data is `asset/data/names-full.json`. Legacy `baby-names.js` and `baby-namesv1.js` are retained as original files but are not loaded or deployed.

@@ -21,8 +21,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
-      - run: node tools/build.mjs
-      - run: node tools/validate.mjs
+      # The tool now lives at quran.ilmualam.com/nama-bayi-islam/; this site only redirects there (tools/redirect.mjs).
+      - run: node tools/redirect.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
